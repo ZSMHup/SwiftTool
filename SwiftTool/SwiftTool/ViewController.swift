@@ -20,7 +20,8 @@ class ViewController: BaseViewController {
     
     private lazy var dataSource: [(title: String, controller: UIViewController.Type)] = {
         return [
-            (title: "Network", controller: NetworkViewController.self)
+            (title: "Network", controller: NetworkViewController.self),
+            (title: "Download", controller: DownloadListViewController.self)
         ]
     }()
     

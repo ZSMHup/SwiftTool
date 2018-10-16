@@ -22,7 +22,6 @@ import UIKit
 //    }
 //
 //    override func drawText(in rect: CGRect) {
-//        super.drawText(in: CGRect.insetBy(rect))
-////        super.drawText(in: UIEdgeInsetsInsetRect(rect, contentInset))
+//        super.drawText(in: UIEdgeInsetsInsetRect(rect, contentInset))
 //    }
 //}

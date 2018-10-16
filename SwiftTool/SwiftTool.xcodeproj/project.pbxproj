@@ -45,6 +45,15 @@
 		E1F9443E217594F9009813B8 /* YLNetwork+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94433217594F9009813B8 /* YLNetwork+Base.swift */; };
 		E1F9444021759520009813B8 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9443F21759520009813B8 /* UIDevice+Extension.swift */; };
 		E1F944442175967C009813B8 /* BannerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944432175967C009813B8 /* BannerListModel.swift */; };
+		E1F944462175A26A009813B8 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944452175A26A009813B8 /* AlertView.swift */; };
+		E1F9444C2175A870009813B8 /* Download+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944482175A870009813B8 /* Download+Extension.swift */; };
+		E1F9444D2175A870009813B8 /* DownloadCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944492175A870009813B8 /* DownloadCache.swift */; };
+		E1F9444E2175A870009813B8 /* DownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9444A2175A870009813B8 /* DownloadManager.swift */; };
+		E1F9444F2175A870009813B8 /* DownloadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9444B2175A870009813B8 /* DownloadModel.swift */; };
+		E1F944522175A8C9009813B8 /* DownloadListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944512175A8C9009813B8 /* DownloadListViewController.swift */; };
+		E1F944542175AA52009813B8 /* DownloadListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944532175AA52009813B8 /* DownloadListCell.swift */; };
+		E1F944562175AA9D009813B8 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944552175AA9D009813B8 /* ProgressView.swift */; };
+		E1F944582175AAE9009813B8 /* FileManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944572175AAE9009813B8 /* FileManagerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -90,6 +99,15 @@
 		E1F94433217594F9009813B8 /* YLNetwork+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YLNetwork+Base.swift"; sourceTree = "<group>"; };
 		E1F9443F21759520009813B8 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
 		E1F944432175967C009813B8 /* BannerListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerListModel.swift; sourceTree = "<group>"; };
+		E1F944452175A26A009813B8 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		E1F944482175A870009813B8 /* Download+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Download+Extension.swift"; sourceTree = "<group>"; };
+		E1F944492175A870009813B8 /* DownloadCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadCache.swift; sourceTree = "<group>"; };
+		E1F9444A2175A870009813B8 /* DownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadManager.swift; sourceTree = "<group>"; };
+		E1F9444B2175A870009813B8 /* DownloadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadModel.swift; sourceTree = "<group>"; };
+		E1F944512175A8C9009813B8 /* DownloadListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListViewController.swift; sourceTree = "<group>"; };
+		E1F944532175AA52009813B8 /* DownloadListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListCell.swift; sourceTree = "<group>"; };
+		E1F944552175AA9D009813B8 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		E1F944572175AAE9009813B8 /* FileManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +166,7 @@
 				E1F9441921759441009813B8 /* Test */,
 				E1F94426217594F9009813B8 /* Network */,
 				E1F943EF21759097009813B8 /* Extension */,
+				E1F944472175A870009813B8 /* DownloadManager */,
 				E1F9440A2175910B009813B8 /* Utils */,
 				E1F943DF21758EFD009813B8 /* Other */,
 			);
@@ -204,6 +223,7 @@
 				E1F9440E2175910B009813B8 /* StarRatingView.swift */,
 				E1F9440F2175910B009813B8 /* Toast.swift */,
 				E1F944102175910B009813B8 /* WebViewContainer.swift */,
+				E1F944452175A26A009813B8 /* AlertView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -211,6 +231,7 @@
 		E1F9441921759441009813B8 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				E1F944502175A8A1009813B8 /* DownloadTest */,
 				E1F94420217594BE009813B8 /* NetworkTest */,
 			);
 			path = Test;
@@ -278,6 +299,28 @@
 				E1F94432217594F9009813B8 /* RequestManager.swift */,
 			);
 			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		E1F944472175A870009813B8 /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				E1F9444A2175A870009813B8 /* DownloadManager.swift */,
+				E1F9444B2175A870009813B8 /* DownloadModel.swift */,
+				E1F944492175A870009813B8 /* DownloadCache.swift */,
+				E1F944482175A870009813B8 /* Download+Extension.swift */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		E1F944502175A8A1009813B8 /* DownloadTest */ = {
+			isa = PBXGroup;
+			children = (
+				E1F944512175A8C9009813B8 /* DownloadListViewController.swift */,
+				E1F944572175AAE9009813B8 /* FileManagerViewController.swift */,
+				E1F944532175AA52009813B8 /* DownloadListCell.swift */,
+				E1F944552175AA9D009813B8 /* ProgressView.swift */,
+			);
+			path = DownloadTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -362,6 +405,7 @@
 				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaChainKit/CocoaChainKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaDebug/CocoaDebug.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
 				"${BUILT_PRODUCTS_DIR}/WKWebViewJavascriptBridge/WKWebViewJavascriptBridge.framework",
@@ -374,6 +418,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaChainKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaDebug.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WKWebViewJavascriptBridge.framework",
@@ -423,13 +468,18 @@
 				E1F944442175967C009813B8 /* BannerListModel.swift in Sources */,
 				E1F9440221759097009813B8 /* String+Extension.swift in Sources */,
 				E1F9443E217594F9009813B8 /* YLNetwork+Base.swift in Sources */,
+				E1F944562175AA9D009813B8 /* ProgressView.swift in Sources */,
 				E1F94425217594BE009813B8 /* NetworkViewController.swift in Sources */,
+				E1F944522175A8C9009813B8 /* DownloadListViewController.swift in Sources */,
+				E1F9444D2175A870009813B8 /* DownloadCache.swift in Sources */,
 				E1F944112175910B009813B8 /* CacheTools.swift in Sources */,
 				E1F9444021759520009813B8 /* UIDevice+Extension.swift in Sources */,
 				E1F94438217594F9009813B8 /* CacheManager.swift in Sources */,
+				E1F9444C2175A870009813B8 /* Download+Extension.swift in Sources */,
 				E1F9440821759097009813B8 /* UIView+Extension.swift in Sources */,
 				E1F9440021759097009813B8 /* NotificationName+Extension.swift in Sources */,
 				E1F9440521759097009813B8 /* UIColor+Extension.swift in Sources */,
+				E1F944542175AA52009813B8 /* DownloadListCell.swift in Sources */,
 				E1F9440121759097009813B8 /* Pixel+Extension.swift in Sources */,
 				E1F9443D217594F9009813B8 /* RequestManager.swift in Sources */,
 				E1F944162175910B009813B8 /* WebViewContainer.swift in Sources */,
@@ -438,11 +488,15 @@
 				E1F94439217594F9009813B8 /* CleanJSON.swift in Sources */,
 				E1F9440421759097009813B8 /* UIBarButtonItem+Extension.swift in Sources */,
 				E1F944152175910B009813B8 /* Toast.swift in Sources */,
+				E1F944582175AAE9009813B8 /* FileManagerViewController.swift in Sources */,
 				E1F944142175910B009813B8 /* StarRatingView.swift in Sources */,
 				E1F943EC21758F63009813B8 /* AppDelegate.swift in Sources */,
 				E1F9440721759097009813B8 /* UITableView+Extension.swift in Sources */,
 				E1F943FF21759097009813B8 /* Int+Extension.swift in Sources */,
+				E1F944462175A26A009813B8 /* AlertView.swift in Sources */,
+				E1F9444E2175A870009813B8 /* DownloadManager.swift in Sources */,
 				E1F9443A217594F9009813B8 /* Network+Error.swift in Sources */,
+				E1F9444F2175A870009813B8 /* DownloadModel.swift in Sources */,
 				E1F943D021758EBB009813B8 /* ViewController.swift in Sources */,
 				E1F9440321759097009813B8 /* UIApplication+Extension.swift in Sources */,
 				E1F943FE21759097009813B8 /* Dictionary+Extension.swift in Sources */,

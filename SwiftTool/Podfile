@@ -10,6 +10,7 @@ target 'SwiftTool' do
 	pod 'CocoaChainKit'
 	pod 'Toast-Swift'
 	pod 'WKWebViewJavascriptBridge'
+    pod 'MJRefresh'
 			    
 	pod 'CocoaDebug'
 				    

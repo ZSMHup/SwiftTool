@@ -35,10 +35,7 @@
 		E1F944162175910B009813B8 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944102175910B009813B8 /* WebViewContainer.swift */; };
 		E1F94418217592FA009813B8 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94417217592FA009813B8 /* BaseViewController.swift */; };
 		E1F94425217594BE009813B8 /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94422217594BE009813B8 /* NetworkViewController.swift */; };
-		E1F94434217594F9009813B8 /* YLBookDetailAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94428217594F9009813B8 /* YLBookDetailAPI.swift */; };
 		E1F94435217594F9009813B8 /* YLHomeAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94429217594F9009813B8 /* YLHomeAPI.swift */; };
-		E1F94436217594F9009813B8 /* YLLoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9442A217594F9009813B8 /* YLLoginAPI.swift */; };
-		E1F94437217594F9009813B8 /* YLPersonalAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9442B217594F9009813B8 /* YLPersonalAPI.swift */; };
 		E1F94438217594F9009813B8 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9442D217594F9009813B8 /* CacheManager.swift */; };
 		E1F94439217594F9009813B8 /* CleanJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9442E217594F9009813B8 /* CleanJSON.swift */; };
 		E1F9443A217594F9009813B8 /* Network+Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9442F217594F9009813B8 /* Network+Error.swift */; };
@@ -47,6 +44,7 @@
 		E1F9443D217594F9009813B8 /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94432217594F9009813B8 /* RequestManager.swift */; };
 		E1F9443E217594F9009813B8 /* YLNetwork+Base.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F94433217594F9009813B8 /* YLNetwork+Base.swift */; };
 		E1F9444021759520009813B8 /* UIDevice+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9443F21759520009813B8 /* UIDevice+Extension.swift */; };
+		E1F944442175967C009813B8 /* BannerListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944432175967C009813B8 /* BannerListModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,10 +80,7 @@
 		E1F944102175910B009813B8 /* WebViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
 		E1F94417217592FA009813B8 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E1F94422217594BE009813B8 /* NetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
-		E1F94428217594F9009813B8 /* YLBookDetailAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLBookDetailAPI.swift; sourceTree = "<group>"; };
 		E1F94429217594F9009813B8 /* YLHomeAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLHomeAPI.swift; sourceTree = "<group>"; };
-		E1F9442A217594F9009813B8 /* YLLoginAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLLoginAPI.swift; sourceTree = "<group>"; };
-		E1F9442B217594F9009813B8 /* YLPersonalAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLPersonalAPI.swift; sourceTree = "<group>"; };
 		E1F9442D217594F9009813B8 /* CacheManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
 		E1F9442E217594F9009813B8 /* CleanJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanJSON.swift; sourceTree = "<group>"; };
 		E1F9442F217594F9009813B8 /* Network+Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network+Error.swift"; sourceTree = "<group>"; };
@@ -94,6 +89,7 @@
 		E1F94432217594F9009813B8 /* RequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
 		E1F94433217594F9009813B8 /* YLNetwork+Base.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YLNetwork+Base.swift"; sourceTree = "<group>"; };
 		E1F9443F21759520009813B8 /* UIDevice+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extension.swift"; sourceTree = "<group>"; };
+		E1F944432175967C009813B8 /* BannerListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerListModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -241,6 +237,7 @@
 		E1F94423217594BE009813B8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E1F944432175967C009813B8 /* BannerListModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -265,10 +262,7 @@
 		E1F94427217594F9009813B8 /* NetworkAPI */ = {
 			isa = PBXGroup;
 			children = (
-				E1F94428217594F9009813B8 /* YLBookDetailAPI.swift */,
 				E1F94429217594F9009813B8 /* YLHomeAPI.swift */,
-				E1F9442A217594F9009813B8 /* YLLoginAPI.swift */,
-				E1F9442B217594F9009813B8 /* YLPersonalAPI.swift */,
 			);
 			path = NetworkAPI;
 			sourceTree = "<group>";
@@ -425,8 +419,8 @@
 				E1F943EE2175904C009813B8 /* AppDelegate+Services.swift in Sources */,
 				E1F944132175910B009813B8 /* Matcher.swift in Sources */,
 				E1F94435217594F9009813B8 /* YLHomeAPI.swift in Sources */,
-				E1F94434217594F9009813B8 /* YLBookDetailAPI.swift in Sources */,
 				E1F9443C217594F9009813B8 /* NetworkResponse.swift in Sources */,
+				E1F944442175967C009813B8 /* BannerListModel.swift in Sources */,
 				E1F9440221759097009813B8 /* String+Extension.swift in Sources */,
 				E1F9443E217594F9009813B8 /* YLNetwork+Base.swift in Sources */,
 				E1F94425217594BE009813B8 /* NetworkViewController.swift in Sources */,
@@ -441,7 +435,6 @@
 				E1F944162175910B009813B8 /* WebViewContainer.swift in Sources */,
 				E1F943FD21759097009813B8 /* Date+Extension.swift in Sources */,
 				E1F9443B217594F9009813B8 /* NetworkEnvironment.swift in Sources */,
-				E1F94437217594F9009813B8 /* YLPersonalAPI.swift in Sources */,
 				E1F94439217594F9009813B8 /* CleanJSON.swift in Sources */,
 				E1F9440421759097009813B8 /* UIBarButtonItem+Extension.swift in Sources */,
 				E1F944152175910B009813B8 /* Toast.swift in Sources */,
@@ -449,7 +442,6 @@
 				E1F943EC21758F63009813B8 /* AppDelegate.swift in Sources */,
 				E1F9440721759097009813B8 /* UITableView+Extension.swift in Sources */,
 				E1F943FF21759097009813B8 /* Int+Extension.swift in Sources */,
-				E1F94436217594F9009813B8 /* YLLoginAPI.swift in Sources */,
 				E1F9443A217594F9009813B8 /* Network+Error.swift in Sources */,
 				E1F943D021758EBB009813B8 /* ViewController.swift in Sources */,
 				E1F9440321759097009813B8 /* UIApplication+Extension.swift in Sources */,

@@ -54,6 +54,7 @@
 		E1F944542175AA52009813B8 /* DownloadListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944532175AA52009813B8 /* DownloadListCell.swift */; };
 		E1F944562175AA9D009813B8 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944552175AA9D009813B8 /* ProgressView.swift */; };
 		E1F944582175AAE9009813B8 /* FileManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F944572175AAE9009813B8 /* FileManagerViewController.swift */; };
+		E1F9446C2175BB8A009813B8 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F9446B2175BB8A009813B8 /* TextHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -108,6 +109,7 @@
 		E1F944532175AA52009813B8 /* DownloadListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadListCell.swift; sourceTree = "<group>"; };
 		E1F944552175AA9D009813B8 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 		E1F944572175AAE9009813B8 /* FileManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerViewController.swift; sourceTree = "<group>"; };
+		E1F9446B2175BB8A009813B8 /* TextHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +226,7 @@
 				E1F9440F2175910B009813B8 /* Toast.swift */,
 				E1F944102175910B009813B8 /* WebViewContainer.swift */,
 				E1F944452175A26A009813B8 /* AlertView.swift */,
+				E1F9446B2175BB8A009813B8 /* TextHelper.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				E1F9440221759097009813B8 /* String+Extension.swift in Sources */,
 				E1F9443E217594F9009813B8 /* YLNetwork+Base.swift in Sources */,
 				E1F944562175AA9D009813B8 /* ProgressView.swift in Sources */,
+				E1F9446C2175BB8A009813B8 /* TextHelper.swift in Sources */,
 				E1F94425217594BE009813B8 /* NetworkViewController.swift in Sources */,
 				E1F944522175A8C9009813B8 /* DownloadListViewController.swift in Sources */,
 				E1F9444D2175A870009813B8 /* DownloadCache.swift in Sources */,

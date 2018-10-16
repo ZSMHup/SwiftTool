@@ -99,7 +99,7 @@ extension UILabel {
                 self.ay_tapBlock(index, charAttributedString)
             })
         } else {
-            debugPrint("AYTextHelper error: not on the click UILabel")
+            debugPrint("TextHelper error: not on the click UILabel")
         }
     }
 }

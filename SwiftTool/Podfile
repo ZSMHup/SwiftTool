@@ -1,5 +1,8 @@
 platform :ios, '9.0'
 
+#屏蔽三方框架警告
+inhibit_all_warnings!
+
 target 'SwiftTool' do
 
   use_frameworks!
@@ -11,6 +14,7 @@ target 'SwiftTool' do
 	pod 'Toast-Swift'
 	pod 'WKWebViewJavascriptBridge'
     pod 'MJRefresh'
+    pod 'Charts'
 			    
 	pod 'CocoaDebug'
 				    

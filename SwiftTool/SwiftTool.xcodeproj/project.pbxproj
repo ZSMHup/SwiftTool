@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2EA1BEF1A9820AD433C68320 /* Pods_SwiftTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D7760FEDDC7E9B5E22E33C /* Pods_SwiftTool.framework */; };
+		E168E10D2187ED500009E489 /* ChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E168E10C2187ED500009E489 /* ChartsViewController.swift */; };
 		E1F943D021758EBB009813B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F943CF21758EBB009813B8 /* ViewController.swift */; };
 		E1F943E521758EFD009813B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F943E021758EFD009813B8 /* Assets.xcassets */; };
 		E1F943E621758EFD009813B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1F943E121758EFD009813B8 /* LaunchScreen.storyboard */; };
@@ -61,6 +62,7 @@
 		2FB0A4B62AB0054640F6C933 /* Pods-SwiftTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTool.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTool/Pods-SwiftTool.debug.xcconfig"; sourceTree = "<group>"; };
 		32D7760FEDDC7E9B5E22E33C /* Pods_SwiftTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C54A5F2054367631276088 /* Pods-SwiftTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTool.release.xcconfig"; path = "Target Support Files/Pods-SwiftTool/Pods-SwiftTool.release.xcconfig"; sourceTree = "<group>"; };
+		E168E10C2187ED500009E489 /* ChartsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsViewController.swift; sourceTree = "<group>"; };
 		E1F943CA21758EBB009813B8 /* SwiftTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F943CF21758EBB009813B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E1F943D921758EBC009813B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -139,6 +141,14 @@
 				90C54A5F2054367631276088 /* Pods-SwiftTool.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E168E10B2187ED330009E489 /* ChartsTest */ = {
+			isa = PBXGroup;
+			children = (
+				E168E10C2187ED500009E489 /* ChartsViewController.swift */,
+			);
+			path = ChartsTest;
 			sourceTree = "<group>";
 		};
 		E1F943C121758EBB009813B8 = {
@@ -234,6 +244,7 @@
 		E1F9441921759441009813B8 /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				E168E10B2187ED330009E489 /* ChartsTest */,
 				E1F944502175A8A1009813B8 /* DownloadTest */,
 				E1F94420217594BE009813B8 /* NetworkTest */,
 			);
@@ -406,6 +417,7 @@
 				"${PODS_ROOT}/Target Support Files/Pods-SwiftTool/Pods-SwiftTool-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaChainKit/CocoaChainKit.framework",
 				"${BUILT_PRODUCTS_DIR}/CocoaDebug/CocoaDebug.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -419,6 +431,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaChainKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaDebug.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
@@ -481,6 +494,7 @@
 				E1F94438217594F9009813B8 /* CacheManager.swift in Sources */,
 				E1F9444C2175A870009813B8 /* Download+Extension.swift in Sources */,
 				E1F9440821759097009813B8 /* UIView+Extension.swift in Sources */,
+				E168E10D2187ED500009E489 /* ChartsViewController.swift in Sources */,
 				E1F9440021759097009813B8 /* NotificationName+Extension.swift in Sources */,
 				E1F9440521759097009813B8 /* UIColor+Extension.swift in Sources */,
 				E1F944542175AA52009813B8 /* DownloadListCell.swift in Sources */,

@@ -215,7 +215,7 @@ extension UITableView {
 
 ///shake
 extension UIWindow {
-    open override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+    open override func motionEnded(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
         
         if CocoaDebugSettings.shared.responseShakeNetworkDetail == false {return}
         
@@ -239,7 +239,7 @@ extension UIWindow {
 extension CocoaDebug {
     
     ///init
-    static func initializationMethod(serverURL: String? = nil, ignoredURLs: [String]? = nil, onlyURLs: [String]? = nil, tabBarControllers: [UIViewController]? = nil, recordCrash: Bool = false, emailToRecipients: [String]? = nil, emailCcRecipients: [String]? = nil, mainColor: String? = nil)
+    static func initializationMethod(serverURL: String? = nil, ignoredURLs: [String]? = nil, onlyURLs: [String]? = nil, tabBarControllers: [UIViewController]? = nil, recordCrash: Bool = false, emailToRecipients: [String]? = nil, emailCcRecipients: [String]? = nil, mainColor: String? = nil, disableLogMonitoring: Bool = false, disableNetworkMonitoring: Bool = false)
     {
         if serverURL == nil {
             CocoaDebugSettings.shared.serverURL = ""
@@ -278,9 +278,9 @@ extension CocoaDebug {
         CocoaDebugSettings.shared.recordCrash = recordCrash
         CocoaDebugSettings.shared.logMaxCount = CocoaDebug.logMaxCount
         
-        LogHelper.shared.enable = true
+//        LogHelper.shared.enable = true
         let _ = LogStoreManager.shared
-        NetworkHelper.shared().enable()
+//        NetworkHelper.shared().enable()
         CocoaDebugSettings.shared.responseShake = true
         CocoaDebugSettings.shared.responseShakeNetworkDetail = true
         
@@ -290,6 +290,20 @@ extension CocoaDebug {
         
         //color
         CocoaDebugSettings.shared.mainColor = mainColor ?? "#42d459"
+        
+        //log
+        if disableLogMonitoring == true {
+            LogHelper.shared.enable = false
+        }else{
+            LogHelper.shared.enable = true
+        }
+        
+        //network
+        if disableNetworkMonitoring == true {
+            NetworkHelper.shared().disable()
+        }else{
+            NetworkHelper.shared().enable()
+        }
     }
     
     ///deinit

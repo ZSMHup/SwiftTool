@@ -3350,6 +3350,42 @@
 			};
 			name = Debug;
 		};
+		66C3ED294D3F676A13A399D8334BDD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFB43DCBBDD460C24D2BC7C3C7AF9D7C /* CocoaDebug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaDebug/CocoaDebug-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaDebug/CocoaDebug-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaDebug/CocoaDebug.modulemap";
+				PRODUCT_MODULE_NAME = CocoaDebug;
+				PRODUCT_NAME = CocoaDebug;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		6BCCE67E5D934F7DAEC79741C7C76ABC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 32B6907C3EF42C00277B22DCC5E103CB /* Toast-Swift.xcconfig */;
@@ -3534,7 +3570,7 @@
 			};
 			name = Release;
 		};
-		A9B037BDF5DDCC38EC657EF626BD9DA1 /* Debug */ = {
+		A51E90D92521210E52BB6C6B2CC806E3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DFB43DCBBDD460C24D2BC7C3C7AF9D7C /* CocoaDebug.xcconfig */;
 			buildSettings = {
@@ -3562,13 +3598,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		BBC2E9B08B9E8E13DACD0DE21D5746B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3856,44 +3894,6 @@
 			};
 			name = Release;
 		};
-		FB3BC8659AC52C063C74A5358917004E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFB43DCBBDD460C24D2BC7C3C7AF9D7C /* CocoaDebug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CocoaDebug/CocoaDebug-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CocoaDebug/CocoaDebug-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CocoaDebug/CocoaDebug.modulemap";
-				PRODUCT_MODULE_NAME = CocoaDebug;
-				PRODUCT_NAME = CocoaDebug;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		FE87A26CE2C14DB152FE47C1ABD45950 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5045444702EFE2892E6672E0810538EE /* CocoaChainKit.xcconfig */;
@@ -4017,8 +4017,8 @@
 		F03392649FD36E095D0CB1367B705CFA /* Build configuration list for PBXNativeTarget "CocoaDebug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A9B037BDF5DDCC38EC657EF626BD9DA1 /* Debug */,
-				FB3BC8659AC52C063C74A5358917004E /* Release */,
+				66C3ED294D3F676A13A399D8334BDD9B /* Debug */,
+				A51E90D92521210E52BB6C6B2CC806E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

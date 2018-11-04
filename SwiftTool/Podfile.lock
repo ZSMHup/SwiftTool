@@ -5,7 +5,7 @@ PODS:
     - Charts/Core (= 3.2.1)
   - Charts/Core (3.2.1)
   - CocoaChainKit (0.6.3)
-  - CocoaDebug (0.1.3)
+  - CocoaDebug (0.1.5)
   - MJRefresh (3.1.15.7)
   - SnapKit (4.0.1)
   - Toast-Swift (4.0.0)
@@ -39,12 +39,12 @@ SPEC CHECKSUMS:
   Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
   Charts: f122fb70b19847fa5817d018b77d6c5a2296ab25
   CocoaChainKit: 3cf4974c1d0f5adee412fba8a6145ca2592b68b9
-  CocoaDebug: 776d21a594a7af45f54f9532ff325fcfd9d4d0fd
+  CocoaDebug: e3531fc0dfd6f32e6f9cacaecc88b10123b58dec
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
   SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
   Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
   WKWebViewJavascriptBridge: 8da532409bc489ba2c0a69cf38e5d1cd49e3d5e4
 
-PODFILE CHECKSUM: e0f01d1274496b70d766291d8a869b156eb87c52
+PODFILE CHECKSUM: c0c0ac3e429273e5e46d7bd4171ee836a3b25104
 
 COCOAPODS: 1.6.0.beta.1

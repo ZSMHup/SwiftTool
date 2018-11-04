@@ -8,15 +8,16 @@ target 'SwiftTool' do
   use_frameworks!
 
 	pod 'SnapKit'
-	pod 'Alamofire'
-	pod 'Cache'
-	pod 'CocoaChainKit'
-	pod 'Toast-Swift'
-	pod 'WKWebViewJavascriptBridge'
+    pod 'Alamofire'
+    pod 'Cache'
+    pod 'CocoaChainKit'
+    pod 'Toast-Swift'
+    pod 'WKWebViewJavascriptBridge'
     pod 'MJRefresh'
     pod 'Charts'
-			    
-	pod 'CocoaDebug'
+    
+    pod 'CocoaDebug'
+
 				    
 end
 

@@ -56,9 +56,9 @@ extension RequestManager {
 
 // MARK: 响应数据处理
 extension RequestManager {
-    public func responseData<T: Codable>(_ type : T.Type ,
+    public func responseData<T: Codable>(_ type: T.Type ,
                                          completion: @escaping (T) -> (),
-                                         failureCompletion: @escaping (String)->()) {
+                                         failureCompletion: @escaping (String) -> ()) {
         
         guard !dataRequest.isEmpty else {
             requestCount = 0
@@ -68,11 +68,8 @@ extension RequestManager {
         dataRequest.forEach { (key, request) in
             dataRequest.removeValue(forKey: key)
             request.responseData { (response) in
-                if self.requestCount <= 0 {
-                    self.requestCount = 0
-                } else {
-                    self.requestCount -= 1
-                }
+                
+                self.requestCount < 0 ? (self.requestCount = 0) : (self.requestCount -= 1)
                 
                 switch response.result {
                 case .success(let data):
@@ -108,7 +105,7 @@ extension RequestManager {
         return self
     }
     
-    public func responseCache<T: Codable>(_ type : T.Type ,
+    public func responseCache<T: Codable>(_ type: T.Type ,
                                           completion: @escaping (T) -> ()) -> RequestManager {
         if cache {
             guard !dataRequest.isEmpty else {
@@ -144,8 +141,8 @@ extension RequestManager {
                        withName: String,
                        fileName: String,
                        mimeType: String,
-                       successCompletion: @escaping (Data)->(),
-                       failureCompletion: @escaping (Error)->()) {
+                       successCompletion: @escaping (Data) -> (),
+                       failureCompletion: @escaping (Error) -> ()) {
         
         Alamofire.upload(multipartFormData: { (multipartFormData) in
             for data in datas {

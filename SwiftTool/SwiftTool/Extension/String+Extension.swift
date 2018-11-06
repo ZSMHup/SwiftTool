@@ -277,10 +277,8 @@ public extension String {
 public extension String {
     /// 从url中获取后缀 例：.pdf
     var pathExtension: String {
-        if let url = URL(string: self) {
-            return url.pathExtension.isEmpty ? "" : ".\(url.pathExtension)"
-        }
-        return ""
+        guard let url = URL(string: self) else { return "" }
+        return url.pathExtension.isEmpty ? "" : ".\(url.pathExtension)"
     }
 }
 
